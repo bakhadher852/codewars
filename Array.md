@@ -1,3 +1,36 @@
+for(var i; i<arr.length;i++)== for(var i in arr)
+
+for(var i in arr){
+if you want to print the index
+console.log(i);
+if you want to print the value
+console.log(arr[i]);
+}
+
+for(var i of arr){
+console.log(i);will print the value
+}
+
+Array properties
+-forEach()
+make some process for each value
+-map()
+make new array from the orginal array ex: double each value
+-filter(value,index,array)
+it filter the same array base on some condition ex: >5
+-reduce(total,value,index,array)
+it give you only one value from array ex: the sum of the array
+-some()
+it is a boolean function it return T or F base on some condition
+if only one value match the condition will return T
+-every()
+it is a boolean function it return T or F base on some condition
+must ALL VALUES match the condition will return T
+-find()
+it return the value you search for if the condition True if False will return undefine
+-findIndex()
+same as find() but it return the index if false will return -1
+//////////////////////////////////////////////////////
 DESCRIPTION:
 You get an array of numbers, return the sum of all of the positives ones.
 
