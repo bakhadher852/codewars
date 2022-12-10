@@ -31,6 +31,21 @@ it return the value you search for if the condition True if False will return un
 -findIndex()
 same as find() but it return the index if false will return -1
 //////////////////////////////////////////////////////
+How to remove item from Array ?
+arr=['eggs','milk','bread','grapes','tomatoes'];
+splice(1,2)
+1 starting position based on INDEX
+2 indicates how many items we want to remove
+arr.splice(arr.indexOf('grapes'),1);
+
+---
+
+-shift()
+remove the first element in index
+-pop()
+remove the last element in index
+//////////////////////////////////////////////////////
+
 DESCRIPTION:
 You get an array of numbers, return the sum of all of the positives ones.
 
