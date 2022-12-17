@@ -272,19 +272,74 @@ return sum;
 
 ---
 
-# Ans:
+Given an array of integers.
+
+Return an array, where the first element is the count of positives numbers and the second element is sum of negative numbers. 0 is neither positive nor negative.
+
+If the input is an empty array or is null, return an empty array.
+
+Example
+For input [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14, -15], you should return [10, -65].
 
 # Ans:
 
+function countPositivesSumNegatives(input) {
+if (input == null || input.length == 0)
+return [];
+
+var positive = 0;
+var negative = 0;
+
+for (var i=0, l=input.length; i<l; ++i)
+{
+if (input[i] > 0)
+++ positive;
+else
+negative += input[i];
+}
+
+return [positive, negative];
+}
+
 # Ans:
+
+function countPositivesSumNegatives(input) {
+return input && input.length ? [input.filter(p => p > 0).length, input.filter(n => n < 0).reduce((a, b) => a + b, 0)] : [];
+}
+
+# Ans:
+
+function countPositivesSumNegatives(input) {
+if (!Array.isArray(input) || !input.length) return [];
+return input.reduce((arr, n) => {
+if (n > 0) arr[0]++;
+if (n < 0) arr[1] += n;
+return arr;
+}, [0, 0]);
+}
 
 ---
 
-# Ans:
+You will be given an array a and a value x. All you need to do is check whether the provided array contains the value.
+
+Array can contain numbers or strings. X can be either.
+
+Return true if the array contains the value, false if not.
 
 # Ans:
 
+const check = (a,x) => a.includes(x);
+
 # Ans:
+
+function check(a,x){
+return a.includes(x);
+};
+
+# Ans:
+
+mine
+retrun a.some((e)=>e==x)
 
 ---
 
