@@ -547,11 +547,34 @@ return arr.reduce((a, b) => a + b);
 
 ---
 
-# Ans:
+DESCRIPTION:
+It's the academic year's end, fateful moment of your school report. The averages must be calculated. All the students come to you and entreat you to calculate their average for them. Easy ! You just need to write a script.
+
+Return the average of the given array rounded down to its nearest integer.
+
+The array will never be empty.
 
 # Ans:
 
+function getAverage(marks){
+return parseInt((marks.reduce((a,b)=>a+b,0))/marks.length, 10)
+}
+
 # Ans:
+
+function getAverage(marks){
+return Math.floor(marks.reduce((sum, x) => sum + x) / marks.length);
+}
+
+# Ans:
+
+function getAverage(marks){
+
+// calculates total number of marks
+var total = 0;
+for(var i = 0; i < marks.length; i++){
+total += marks[i];
+}
 
 ---
 
