@@ -628,19 +628,75 @@ stringToArray=(s)=>s.split(' ')
 
 ---
 
-# Ans:
+DESCRIPTION:
+You take your son to the forest to see the monkeys. You know that there are a certain number there (n), but your son is too young to just appreciate the full number, he has to start counting them from 1.
+
+As a good parent, you will sit and count with him. Given the number (n), populate an array with all numbers up to and including that number, but excluding zero.
+
+For example(Input --> Output):
+
+10 --> [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+1 --> [1]
 
 # Ans:
 
+mine
+function monkeyCount(n) {
+// your code here
+var z=[]
+for(var i=1 ;i<=n;i++){
+z[i-1] =i;
+}
+return z;
+}
+
 # Ans:
+
+function monkeyCount(n) {
+return Array.from({length:n}, (\_,i)=>i+1)
+}
+
+# Ans:
+
+function monkeyCount(n) {
+for (var i = 0, arr = []; i < n; arr.push(++i));
+
+return arr;
+}
 
 ---
 
-# Ans:
+DESCRIPTION:
+Given an array of integers as strings and numbers, return the sum of the array values as if all were numbers.
+
+Return your answer as a number.
+
+assert.strictEqual(sumMix([9, 3, '7', '3']), 22);
+assert.strictEqual(sumMix(['5', '0', 9, 3, 2, 1, '9', 6, 7]), 42);
+assert.strictEqual(sumMix(['3', 6, 6, 0, '5', 8, 5, '6', 2,'0']), 41);
+})
 
 # Ans:
 
+function sumMix(x){
+return x.reduce((a,b)=>a+Number(b),0)
+}
+
 # Ans:
+
+function sumMix(x){
+return x.map(a => +a).reduce((a, b) => a + b);
+}
+
+# Ans:
+
+function sumMix(x){
+let result = 0;
+for (let n of x) {
+result += parseInt(n);
+}
+return result;
+}
 
 ---
 
