@@ -757,13 +757,11720 @@ let result = arr.find((val, index) => val !== index + arr[0]);
 
     return (Number.isInteger(result)) ? result : null;
 
-## }
+}
+
+---
+
+DESCRIPTION:
+Take an array and remove every second element from the array. Always keep the first element and start removing with the next element.
+
+Example:
+["Keep", "Remove", "Keep", "Remove", "Keep", ...] --> ["Keep", "Keep", "Keep", ...]
+
+None of the arrays will be empty, so you don't have to worry about that!
+
+# Ans:
+
+mine
+arr=["Keep", "Remove", "Keep", "Remove", "Keep"]
+function removeEveryOther(arr){
+for(var i=0 in arr)
+i/2!=0? arr.splice(i,1):null
+return arr
+}
+removeEveryOther(arr)
+
+# Ans:
+
+function removeEveryOther(arr){
+return arr.filter(function(elem, index) {
+return index % 2 === 0;
+});
+}
+
+# Ans:
+
+function removeEveryOther(arr){
+var newArr=[];
+for (var i = 0; i < arr.length; i+=2){
+newArr.push(arr[i]);
+}
+return newArr;
+}
+
+---
 
 # Ans:
 
 # Ans:
 
 # Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
+
+# Ans:
+
+# Ans:
+
+# Ans:
+
+---
 
 ---
 
