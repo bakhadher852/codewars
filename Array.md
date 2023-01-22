@@ -1321,16 +1321,6 @@ return newArr;
 
 ---
 
----
-
-# Ans:
-
-# Ans:
-
-# Ans:
-
----
-
 # Ans:
 
 # Ans:
